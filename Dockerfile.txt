@@ -1,5 +1,6 @@
 FROM jenkins/jenkins:lts
 MAINTAINER bkhashi9@gmail.com
+
 USER root
 
 RUN apt-get update && \
